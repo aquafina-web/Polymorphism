@@ -1,14 +1,4 @@
-#Duck Type Polymorphism
-class Dog:
-    def speak(self):
-        print("dogs bark")
-
-class Cat:
-    def speak(self):
-        print("cats meow")
-
-d1 = Dog()
-d1.speak()
-
-c1 = Cat()
-c1.speak()
+#Built - in Polymorphism
+print(len("Hello"))
+print(len([1,2,3,31]))
+print(len((10,20)))
